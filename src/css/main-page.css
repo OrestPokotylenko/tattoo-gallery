@@ -38,10 +38,10 @@ body {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 48px;
     position: absolute;
     bottom: 1%;
-    left: 15%;
+    left: 18%;
     transform: translate(-50%, -50%);
     z-index: 20;
     text-align: center;
@@ -156,11 +156,7 @@ h2, h3 {
     height: 100%;
 }
 
-@media (max-width: 1286) {
-
-}
-
-@media (max-width: 1286px) {
+@media (max-width: 1293px) {
     .sections-wrapper {
         margin: 0 20px;
     }
@@ -234,6 +230,18 @@ h2, h3 {
     }
 }
 
+@media (max-width: 900px) {
+    h1 {
+        font-size: 24px;
+        position: absolute;
+        bottom: -2%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        z-index: 20;
+        text-align: center;
+    }
+}
+
 @media (max-width: 768px) {
     .section-content {
         display: flex;
@@ -300,16 +308,18 @@ h2, h3 {
     }
 
     h1 {
+        font-size: 24px;
         position: absolute;
         bottom: -2%;
-        left: 15%;
+        left: 20%;
         transform: translate(-50%, -50%);
         z-index: 20;
         text-align: center;
     }
 
     h2, h3 {
-        margin-bottom: 30px;
+        font-size: 24px;
+        margin-bottom: 15px;
     }
 
     .paragraph-wrapper {
@@ -322,11 +332,16 @@ h2, h3 {
 
 @media (max-width: 500px) {
     h1 {
+        font-size: 16px;
         position: absolute;
-        bottom: -10%;
+        bottom: -5%;
         left: 25%;
         transform: translate(-50%, -50%);
         z-index: 20;
         text-align: center;
+    }
+
+    h2, h3 {
+        font-size: 16px;
     }
 }

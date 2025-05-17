@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const gallery = document.getElementById("gallery");
     const imagesPath = "src/img/gallery/";
-    const imagesNumber = 8;
+    const imagesNumber = 10;
 
     let imageFilenames = [];
 
